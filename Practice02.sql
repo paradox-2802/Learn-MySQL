@@ -43,9 +43,9 @@ INSERT INTO Enroll (Sid, Cid, Fee) VALUES
 ('S004', 'C104', 4700),
 ('S005', 'C103', 4800);
 
-Select * from Student;
-Select * from Course;
-Select * from Enroll;
+SELECT * FROM Student;
+SELECT * FROM Course;
+SELECT * FROM Enroll;
 DROP TABLE Enroll;
-drop table Student;
-drop table Course;
+DROP TABLE Student;
+DROP TABLE Course;
