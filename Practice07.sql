@@ -48,6 +48,6 @@ FROM Employee E1, Employee E2
 WHERE
     E1.Gender = 'F'
     AND E2.Gender = 'M'
-    AND E1.Salary < E2.Salary;
-
+    AND E1.Salary <= E2.Salary;
+    
 DROP TABLE Employee;
