@@ -1,3 +1,4 @@
+-- Find the employee IDs of all female employees who earn more than every male employee.
 CREATE TABLE Employee (
     Eid VARCHAR(10) PRIMARY KEY,
     Salary DECIMAL(10, 2) NOT NULL,
@@ -49,5 +50,5 @@ WHERE
     E1.Gender = 'F'
     AND E2.Gender = 'M'
     AND E1.Salary <= E2.Salary;
-    
+
 DROP TABLE Employee;

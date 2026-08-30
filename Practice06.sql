@@ -1,3 +1,4 @@
+-- Find the employee IDs of all female employees who earn more than at least one male employee.
 CREATE TABLE Employee (
     Eid VARCHAR(10) PRIMARY KEY,
     Salary DECIMAL(10, 2) NOT NULL,

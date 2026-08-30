@@ -1,3 +1,4 @@
+-- Find the employee ID(s) of the employee(s) with the highest salary.
 CREATE TABLE Employee(
     Eid VARCHAR(10) PRIMARY KEY,
     Salary INTEGER NOT NULL
@@ -46,7 +47,7 @@ WHERE NOT EXISTS (
     SELECT *
     FROM Employee E2
     WHERE
-        E1.Salary < E2.Salary
+        E2.Salary > E1.Salary
     );
 
 DROP TABLE Employee;
