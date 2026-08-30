@@ -75,4 +75,5 @@ FROM Employee E1, Employee E2
 WHERE
     E1.Department = E2.Department
     AND E1.Salary < E2.Salary;
+
 DROP TABLE Employee;
