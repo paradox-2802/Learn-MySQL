@@ -69,12 +69,10 @@ WHERE
     );
 
 SELECT Eid, Salary, Department
-FROM Employee
-ExCEPT
+FROM Employee ExCEPT
 SELECT E1.Eid, E1.Salary, E1.Department
 FROM Employee E1, Employee E2
 WHERE
     E1.Department = E2.Department
-    AND E1.Salary < E2.Salary  
-
+    AND E1.Salary < E2.Salary;
 DROP TABLE Employee;
