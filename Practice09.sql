@@ -1,4 +1,4 @@
--- Find the employee(s) in each department who earn the highest salary within that department" (i.e., the top earner per department).
+-- Find the employee(s) in each department who earn the highest salary within that department (i.e., the top earner per department).
 CREATE TABLE Employee (
     Eid VARCHAR(10) PRIMARY KEY,
     Salary DECIMAL(10, 2) NOT NULL,
