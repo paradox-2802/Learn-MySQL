@@ -16,14 +16,6 @@ INSERT INTO Employee (Eid, Salary, Gender) VALUES
 ('E9', 62000.00, 'M'),
 ('E10', 80000.00, 'F');
 
-SELECT Eid
-FROM Employee E1
-WHERE
-    E1.Gender IN (
-        SELECT Gender
-        FROM Employee E2
-        WHERE
-            E2.Salary < E1.Salary
-    );
 
-DROP TABLE Employee;
+
+
