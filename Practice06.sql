@@ -4,7 +4,7 @@ CREATE TABLE Employee (
     Gender CHAR(1)
 );
 
-INSERT INTO Employee (Eid, Salary, Gender) VALUES \
+INSERT INTO Employee (Eid, Salary, Gender) VALUES 
 ('E1', 50000.00, 'M'),
 ('E2', 60000.00, 'F'),
 ('E3', 55000.00, 'M'),
