@@ -1,1 +1,2 @@
-☕ A comprehensive Java programming course from basic syntax to advanced concepts. Includes hands-on exercises, real-world projects, and detailed notes.
+# Learn-MySQL
+🐬 A comprehensive MySQL course covering everything from basic SQL queries to database design, advanced joins, and performance optimization. Includes sample databases and real-world exercises.
